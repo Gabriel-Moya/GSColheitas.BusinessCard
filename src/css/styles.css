@@ -23,6 +23,8 @@
 
 .header {
   display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -31,8 +33,46 @@
   color: var(--quaternary-color);
 }
 
+.header-title {
+  font-family: "Roboto Slab", serif;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: bold;
+}
+
+.header-title-highlight {
+  color: var(--tertiary-color);
+}
+
+.header-representation {
+  display: flex;
+  gap: 0.25rem;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: bold;
+  color: var(--secondary-color);
+  background-color: var(--quaternary-color);
+  padding: 1rem 5.5rem 1rem 1.5rem;
+  border-radius: 0.5rem;
+}
 
 .contact-list {
   display: flex;
   flex-direction: column;
+  gap: 1.25rem;
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: var(--primary-color);
+  color: var(--quaternary-color);
+  padding: 1rem;
+  border-radius: 0.9375rem;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 1.5rem;
 }
