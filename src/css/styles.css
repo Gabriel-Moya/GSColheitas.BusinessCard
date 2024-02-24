@@ -2,6 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --primary-color: #1B4018;
+  --secondary-color: #303F09;
+  --tertiary-color: #FFD753;
+  --quaternary-color: #FFF6E9;
 }
 
 .container {
