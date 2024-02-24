@@ -18,8 +18,18 @@
   align-items: center;
   height: 100vh;
   width: 100vw;
+  background-color: var(--quaternary-color);
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1.5rem;
+  background-color: var(--primary-color);
+  color: var(--quaternary-color);
+}
 
 
 .contact-list {
